@@ -2,7 +2,7 @@ public class Conta
 {
     // Atributos
     public int Numero { get; private set; }
-    private double Saldo { get; private set; }
+    public double Saldo { get; private set; }
     public string Titular;
     // atributos
 
@@ -38,6 +38,7 @@ public class Conta
     //------------------------------------------------------------------------------------------------
     //Getters and Setters
     //GET NUMERO
+    /*
     public int GetNumero()
     {
         return Numero;
@@ -51,7 +52,7 @@ public class Conta
     {
         Titular = titular;
     }
-    
+    */
     //------------------------------------------------------------------------------------------------
     //ToString
     public override string ToString()
