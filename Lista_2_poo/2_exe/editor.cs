@@ -10,7 +10,7 @@ public class Arquivo
     public Arquivo() // tem que ser publico e ter o mesmo nome da classe
     {
         Name = "Sem titulo";
-        Size = 8; // Inicializa o saldo como zero
+        Size = 0; // Inicializa o saldo como zero
         Content = "Vazio";
         //Console.WriteLine("Arquivo " + Name + " criado com sucesso!");
     }
@@ -37,6 +37,7 @@ public class Arquivo
     {
         if (Name == name_arquivo)
         {
+            Size = Content.Length * 8;
             return "Arquivo " + Name + " aberto com sucesso!\n" +
                    "\nTitulodo arquivo: " + Name +
                    "\nTamanho do arquivo: " + Size +
@@ -47,18 +48,13 @@ public class Arquivo
             return "Arquivo não encontrado!";
         }
     }
-    /*
-    public string Editar(string modo, string name_arquivo, int size, string content)
+    public string Editar(string name, string content)
     {
-        if (Name == Name && modo == "E")
-        {
-            Name = Console.ReadLine();
-            Size = int.Parse(Console.ReadLine());
-            Content = Console.ReadLine();
-            Console.WriteLine("Arquivo " + Name + "aberto com sucesso!");
-            Console.WriteLine("Tamanho do arquivo: " + Size,
-                            "\nConteúdo do arquivo: " + Content);
-        }
-    }*/
+
+        Name = name;
+        Content = content;
+        return $"\n Titulo: { Name}"
+              + $"\n Conteudo: {Content}";
+    }
 }
 
