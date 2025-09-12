@@ -37,6 +37,8 @@ public class Conta
     }
     //------------------------------------------------------------------------------------------------
     //Getters and Setters
+    //GET vizualizações
+    //SET modificações
     //GET NUMERO
     /*
     public int GetNumero()
