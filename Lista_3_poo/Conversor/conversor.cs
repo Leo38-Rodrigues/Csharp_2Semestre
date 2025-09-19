@@ -1,6 +1,7 @@
 public class TempeatureConverter()
 {
 
+// Métodos de conversão de temperatura
     public static double CelsiusToFahrenheit(double celsius)
     {
         return (celsius * 9 / 5) + 32;
