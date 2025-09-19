@@ -36,7 +36,7 @@ public class Conta
         return true; // Saque realizado com sucesso
     }
     //------------------------------------------------------------------------------------------------
-    //Getters and Setters
+    //Getters and Setters - ENCAPSULAMENTO
     //GET vizualizações
     //SET modificações
     //GET NUMERO

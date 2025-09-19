@@ -1,0 +1,15 @@
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.AssemblyInfoInputs.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.AssemblyInfo.cs
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.sourcelink.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\bin\Debug\net9.0\Conversor.exe
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\bin\Debug\net9.0\Conversor.deps.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\bin\Debug\net9.0\Conversor.runtimeconfig.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\bin\Debug\net9.0\Conversor.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\bin\Debug\net9.0\Conversor.pdb
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\refint\Conversor.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.pdb
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\Conversor.genruntimeconfig.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\Lista_03_poo\Conversor\obj\Debug\net9.0\ref\Conversor.dll
