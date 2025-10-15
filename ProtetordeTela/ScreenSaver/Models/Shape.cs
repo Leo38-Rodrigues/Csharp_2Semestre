@@ -1,17 +1,19 @@
 namespace Models.BaseShapes;
 using System;
-public class Shape
+using System.Drawing;
+
+public abstract class Shape
 {
 
     //ATRIBUTOS
-    public int X;
-    public int Y;
-    public int SpeedX;
-    public int SpeedY;
-    public int Width; // Largura
-    public int Height; // Altura
-    public Color ColorShape;
-    private Random rand = new Random();
+    protected int X;
+    protected int Y;
+    protected int SpeedX;
+    protected int SpeedY;
+    protected int Width; // Largura
+    protected int Height; // Altura
+    public Color ColorShape{get; protected set;}
+   
 
     //CONSTRUTOR
     public Shape(int x, int y, Color color, int width, int height)
@@ -29,12 +31,12 @@ public class Shape
 
     public void Move(int xlimit, int ylimit)
     {
-        
+
         X += SpeedX;
-       
+
         Y += SpeedY;
-       
-       if (X <= 0 || X >= xlimit - Width)
+
+        if (X <= 0 || X >= xlimit - Width)
         {
             SpeedX = -SpeedX;
             // inverte direção
@@ -46,12 +48,20 @@ public class Shape
         }
 
     }
+    
+    private int ColorGenerate()
+    {
+        int red
+    }
 
     //TO STRING
     public override string ToString()
     {
         return $"X: {X}, \nY: {Y}, \nColorShape: {ColorShape}";
     }
+
+    Color.FromArgb(red, green, blue);
+   
 
 
 
