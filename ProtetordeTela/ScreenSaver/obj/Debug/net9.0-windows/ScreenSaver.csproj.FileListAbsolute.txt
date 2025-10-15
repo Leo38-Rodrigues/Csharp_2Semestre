@@ -1,0 +1,15 @@
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.exe
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.deps.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.runtimeconfig.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.pdb
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.AssemblyInfoInputs.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.AssemblyInfo.cs
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.sourcelink.json
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\refint\ScreenSaver.dll
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.pdb
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.genruntimeconfig.cache
+C:\Users\Leonardo Rodrigues\Desktop\Aulas ADS SENAI\2 - SEMESTRE\4 - Back End - Cainã\ProtetordeTela\ScreenSaver\obj\Debug\net9.0-windows\ref\ScreenSaver.dll
