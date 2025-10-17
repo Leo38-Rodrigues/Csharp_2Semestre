@@ -11,7 +11,7 @@ public class ScreenSaver : Form
 
     MyRectangle r, r1;
     MyCircle c;
-    MySquare s;
+    MySquare q;
 
 
     // ********************************************************************
@@ -33,7 +33,7 @@ public class ScreenSaver : Form
             r.Move(ClientSize.Width, ClientSize.Height);
             r1.Move(ClientSize.Width, ClientSize.Height);
             c.Move(ClientSize.Width, ClientSize.Height);
-            s.Move(ClientSize.Width, ClientSize.Height);
+            q.Move(ClientSize.Width, ClientSize.Height);
             // ***********************************************
             Invalidate(); // Foça a tela a ser redesenhada.
         }; // Função anônima disparada pelo ControlTimer a cada Interval (ms)
@@ -47,7 +47,7 @@ public class ScreenSaver : Form
         r = new MyRectangle(ClientSize.Width, ClientSize.Height);
         r1 = new MyRectangle(ClientSize.Width, ClientSize.Height);
         c = new MyCircle(ClientSize.Width, ClientSize.Height);
-        s = new MySquare(ClientSize.Width, ClientSize.Height);
+        q = new MySquare(ClientSize.Width, ClientSize.Height);
 
         // ****************************************************
     }
@@ -59,7 +59,7 @@ public class ScreenSaver : Form
         r.Draw(e.Graphics);
         r1.Draw(e.Graphics);
         c.Draw(e.Graphics);
-        s.Draw(e.Graphics);
+        q.Draw(e.Graphics);
         // ***************************************************
 
     }
