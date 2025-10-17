@@ -1,18 +1,18 @@
 using System.Security.Cryptography.X509Certificates;
-
 namespace Models.BaseShapes;
 
-public class MyRectangle : Shape
+public class MySquare : Shape
 {
     //ATRIBUTOS
 
 
     //CONSTRUTOR
-    public MyRectangle(int screenWidth, int screenHeight, int size) : base(screenWidth, screenHeight, size)
+    public MySquare(int screenWidth, int screenHeight, int size) : base(screenWidth, screenHeight, size)
     {
     }
-    public MyRectangle(int screenWidth, int screenHeight) : base(screenWidth, screenHeight)
+    public MySquare(int screenWidth, int screenHeight) : base(screenWidth, screenHeight)
     {
+        Width = Height;
     }
 
     //METODOS 
@@ -26,6 +26,5 @@ public class MyRectangle : Shape
 
         }
     }
-   
-}
 
+}

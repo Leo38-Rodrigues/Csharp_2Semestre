@@ -12,46 +12,73 @@ public abstract class Shape
     protected int SpeedY;
     protected int Width; // Largura
     protected int Height; // Altura
-    public Color ColorShape{get; protected set;}
-   
+    public Color ColorShape { get; protected set; }
+    protected Random Rand = new Random();
+
 
     //CONSTRUTOR
-    public Shape(int x, int y, Color color, int width, int height)
+    public Shape(int screenWidth, int screenHeight, int size) //QUADRADO E CIRCULO - LADOS IGUAIS
     {
-        X = x;
-        Y = y;
-        SpeedX = 2;
-        SpeedY = 2;
-        Width = width;
-        Height = height;
-        ColorShape = color;
+        
+        SpeedX = Rand.Next(1, 10);
+        SpeedY = Rand.Next(1, 10);
+        Width = size;
+        Height = size;
+        X = Rand.Next(0, screenWidth-Width);
+        Y = Rand.Next(0, screenHeight-Height);
+        ColorShape = ColorGenerate();
+    }
+
+    public Shape(int screenWidth, int screenHeight) // ELLIPSE E RETANGULO - LADOS DIFERENTES
+    {
+        
+        do
+        {
+            SpeedX = Rand.Next(-10, 10);
+        } while (SpeedX == 0);
+        do
+        {
+            SpeedY = Rand.Next(-10, 10);
+        } while (SpeedY == 0);
+        Width = Rand.Next(50, 250); // Largura
+        do
+        {
+             Height = Rand.Next(50, 250);// Altura
+        }while (Height == Width);
+        X = Rand.Next(0, screenWidth-Width);
+        Y = Rand.Next(0, screenHeight-Height);
+        ColorShape = ColorGenerate();
     }
 
     //METODOS
 
     public void Move(int xlimit, int ylimit)
     {
-
+        
         X += SpeedX;
-
         Y += SpeedY;
 
         if (X <= 0 || X >= xlimit - Width)
         {
             SpeedX = -SpeedX;
+            ColorShape = ColorGenerate();
             // inverte direção
         }
         //Verifica limites verticais
         if (Y <= 0 || Y >= ylimit - Height)
         {
             SpeedY = -SpeedY; // inverte direção
+            ColorShape = ColorGenerate();
         }
-
     }
     
-    private int ColorGenerate()
+   private Color ColorGenerate()
     {
-        int red
+        int red = Rand.Next(0, 255);   // .next define que o numero aleatorio sera inteiro
+        int green = Rand.Next(0, 255);
+        int blue = Rand.Next(0, 255);
+
+        return Color.FromArgb(red, green, blue);
     }
 
     //TO STRING
@@ -59,10 +86,4 @@ public abstract class Shape
     {
         return $"X: {X}, \nY: {Y}, \nColorShape: {ColorShape}";
     }
-
-    Color.FromArgb(red, green, blue);
-   
-
-
-
 }

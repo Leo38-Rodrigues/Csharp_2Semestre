@@ -2,19 +2,20 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Models.BaseShapes;
 
-public class MyRectangle : Shape
+public class MyCircle : Shape
 {
     //ATRIBUTOS
 
 
     //CONSTRUTOR
-    public MyRectangle(int screenWidth, int screenHeight, int size) : base(screenWidth, screenHeight, size)
+    public MyCircle(int screenWidth, int screenHeight, int size) : base(screenWidth, screenHeight, size)
     {
     }
-    public MyRectangle(int screenWidth, int screenHeight) : base(screenWidth, screenHeight)
+    public MyCircle(int screenWidth, int screenHeight) : base(screenWidth, screenHeight)
     {
+        Width = Height;
     }
-
+    
     //METODOS 
     public void Draw(Graphics g)
     {
@@ -22,7 +23,7 @@ public class MyRectangle : Shape
         {
 
             using var SolidBrush = new SolidBrush(ColorShape);
-            g.FillRectangle(brush, X, Y, Width, Height);
+            g.FillEllipse(brush, X, Y, Width, Height);
 
         }
     }
